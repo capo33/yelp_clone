@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+  /* background: repeating-linear-gradient(
+      rgba(000, 000, 000, 0.5),
+      rgba(000, 000, 000, 0.5)
+    ),
+    url("https://www.editionhotels.com/wp-content/uploads/2023/02/Tampa3_20a_RGB_V2.jpg")
+      no-repeat center center fixed;
+
+  background-size: cover; */
+}
+
+img {
+  filter: grayscale(100%) brightness(50%);
+}

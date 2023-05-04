@@ -5,7 +5,8 @@
   "author": "mohamed",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.ts"
+    "start": "nodemon index.ts",
+    "dev": "tsc -w && nodemon index.js"
   },
   "dependencies": {
     "@types/node": "^18.16.3",

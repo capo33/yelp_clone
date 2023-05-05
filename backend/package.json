@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon index.ts",
-    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
-    "build": "yarn && tsc"
+    "dev": "tsc -w && nodemon index.js"
   },
   "dependencies": {
     "@types/node": "^18.16.3",
